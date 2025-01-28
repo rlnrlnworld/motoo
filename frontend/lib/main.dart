@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Motoo',
       debugShowCheckedModeBanner: false,
-      initialRoute: '/login',
+      initialRoute: '/terms',
       routes: {
         '/onboarding': (context) => OnboardingScreen(),
         '/login': (context) => LoginScreen(),
-        '/terms': (context) => TermsagreementScreen(),
+        '/terms': (context) => TermsAgreementScreen(),
       },
     );
   }
